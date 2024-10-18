@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Belanja</title>
+    <link rel="stylesheet" href="CSS.css">
+    <link rel="website icon" type="png"
+    href="img/persibb.png">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/persibb.png" alt="Persib Logo">
+            </div>
+            
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="Home.html">HOME</a></li>
+                    <li class="dropdown">
+                        <a href="Profil.html">PROFIL ▼</a>
+                        <ul class="dropdown-content">
+                            <li><a href="Sejarah.html">SEJARAH</a></li>
+                            <li><a href="Pemain.html">PEMAIN</a></li>
+                            <li><a href="Sponsor.html">SPONSOR</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Pencapaian.html">PENCAPAIAN</a></li>
+                    <li class="dropdown">
+                        <a href="#">PERTANDINGAN ▼</a>
+                        <ul class="dropdown-content">
+                            <li><a href="Pertandingan Sebelumnya.html">PERTANDINGAN SEBELUMNYA</a></li>
+                            <li><a href="Pertandingan Mendatang.html">PERTANDINGAN MENDATANG</a></li>
+                            <li><a href="Klasemen.html">Klasemen</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Belanja.html"><span class="underline">BELANJA</span></a></li>
+                    <li><a href="Berita.html">BERITA</a></li>
+                </ul>
+            </nav>
+            
+            <div class="actions">
+                <a href="Akun.html"><button class="Akun">Asup Akun Bobotoh!</button></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-persib-official-store">
+        <div class="text-section-persib-official-store">
+            <h3>PERSIB</h3>
+            <h1>OFFICIAL STORE</h1>
+        </div>
+    </div>
+
+    <section class="product-gallery-PERSIB-JERSEY-PLAYER-ISSUE-HOME-2024">
+        <div class="gallery-item-PERSIB-JERSEY-PLAYER-ISSUE-HOME-2024">
+            <img src="Barang/PERSIB JERSEY SUPPORTER EDITION HOME 2024.jpg">
+        </div>
+        <div class="gallery-item-PERSIB-JERSEY-PLAYER-ISSUE-HOME-2024">
+            <img src="Barang/PERSIB JERSEY PLAYER ISSUE HOME 2024 1.jpg">
+        </div>
+        <div class="gallery-item-PERSIB-JERSEY-PLAYER-ISSUE-HOME-2024">
+            <img src="Barang/PERSIB JERSEY PLAYER ISSUE HOME 2024 3.jpg">
+        </div>
+        <div class="gallery-item-PERSIB-JERSEY-PLAYER-ISSUE-HOME-2024">
+            <img src="Barang/PERSIB JERSEY PLAYER ISSUE HOME 2024 4.jpg">
+        </div>
+        <div class="gallery-item-PERSIB-JERSEY-PLAYER-ISSUE-HOME-2024">
+            <img src="Barang/PERSIB JERSEY PLAYER ISSUE HOME 2024 5.jpg">
+        </div>
+    </section>
+
+    <div class="form-container">
+        <h1>Formulir Pembelian Persib Official Store</h1>
+        <form action="Terimakasih belanja.html" method="POST">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Lengkap Anda" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan Email Anda" required>
+
+            <label for="email">Alamat Pengiriman</label>
+            <textarea id="address" name="address" rows="4" placeholder="Masukkan alamat pengiriman" required></textarea>
+            <br>
+            <label for="kategori">Ukuran:</label>
+            <select id="kategori" name="kategori" required>
+                <option>XXS</option>
+                <option>XS</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>2XL</option>
+                <option>3XL</option>
+                <option></option>4XL
+            </select>
+
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" placeholder="Masukkan Jumlah" required>
+
+            <label for="metode-pembayaran">Metode Pembayaran:</label>
+            <select id="metode-pembayaran" name="metode-pembayaran" required>
+                <option value="Bank Transfer">Bank Transfer</option>
+                <option value="Kartu Kredit">Kartu Kredit</option>
+                <option value="GoPay">GoPay</option>
+                <option value="OVO">OVO</option>
+            </select>
+
+            <button type="submit" class="submit-btn">Bayar Sekarang</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Persib Bandung. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/Persib" target="_blank">Facebook</a>
+                <a href="https://twitter.com/persib" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/persib" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
